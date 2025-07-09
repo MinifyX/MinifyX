@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @MinifyX
-- 👀 I’m interested in Video editing, producing and programming.
-- 🌱 I’m currently learning C#, Python, Javascript
+- 👀 I’m interested in Video editing, producing and lots of other random stuff.
+- 🌱 I’m currently learning nothing
 - 📫 How to reach me: request@minifyx.de
