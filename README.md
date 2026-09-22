@@ -33,6 +33,7 @@ Stack: Tauri 2 + React + TypeScript on the front, Rust underneath, SQLite for st
   <img src="https://raw.githubusercontent.com/MinifyX/UwURDP-Client/main/brand/uwurdp-app-icon.svg" width="64" alt="UwURDP">
   <img src="https://raw.githubusercontent.com/MinifyX/UwUNotes-Client/main/brand/uwunotes-app-icon.svg" width="64" alt="UwUNotes">
   <img src="https://raw.githubusercontent.com/MinifyX/UwUSSH-Client/main/brand/uwukeygen-app-icon.svg" width="64" alt="UwUKeygen">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUSync-Server/main/brand/uwusync-app-icon.svg" width="64" alt="UwUSync">
 </p>
 
 | App | What it is |
@@ -40,8 +41,8 @@ Stack: Tauri 2 + React + TypeScript on the front, Rust underneath, SQLite for st
 | [UwUMail](https://github.com/MinifyX/UwUMail-Client) | Mail client for Windows and Android, IMAP/SMTP/JMAP |
 | [UwUMail Server](https://github.com/MinifyX/UwUMail-Server) | Self-hosted mail server in one Docker container, with [webmail](https://github.com/MinifyX/UwUMail-Webmail) |
 | [UwUSSH](https://github.com/MinifyX/UwUSSH-Client) | SSH/SFTP client with a vault and encrypted sync, plus **UwUKeygen** for SSH keys |
-| [UwUSSH Server](https://github.com/MinifyX/UwUSSH-Server) | The sync server: a dumb, encrypted mailbox that can't read what it stores |
-| [UwURDP](https://github.com/MinifyX/UwURDP-Client) | Remote desktop client on IronRDP, RDCMan import, same sync server as UwUSSH (fresh beta) |
+| [UwUSync Server](https://github.com/MinifyX/UwUSync-Server) | The sync server for UwUSSH and UwURDP: a dumb, encrypted mailbox that can't read what it stores |
+| [UwURDP](https://github.com/MinifyX/UwURDP-Client) | Remote desktop client on IronRDP, RDCMan import, syncs through UwUSync Server like UwUSSH (fresh beta) |
 | [UwUNotes](https://github.com/MinifyX/UwUNotes-Client) | Text and code editor with tabs, splits, macros and file compare |
 
 Downloads, release notes and Nyu: **[uwu.minifyx.de](https://uwu.minifyx.de)**
