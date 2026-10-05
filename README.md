@@ -19,31 +19,45 @@ I stream on **[Twitch](https://twitch.tv/minifyx)**, in German: talks, reactions
 - ▶️ Videos and stories on [YouTube](https://www.youtube.com/@MinifyX), short clips on [TikTok](https://www.tiktok.com/@minifyx) and [Instagram](https://www.instagram.com/minifyx/)
 - 💬 Stream pings and community talk in the [Discord](https://discord.gg/7hjT4J7arQ)
 
-Most of my private repos are stream tooling: alerts, channel points, a Twitch ↔ Discord bot, and stress tests for the streaming PC.
+My open stream tooling lives in **[Mini's Stream Suite](https://github.com/MinifyX/minis-stream-suite)**: Twitch alerts, channel points and commands as addons. The rest of my private repos are more of that kind: a Twitch ↔ Discord bot and stress tests for the streaming PC.
 
 ## 🐱 The UwUSuite
 
-Next to streaming I build small desktop apps for myself, because every other program annoyed me. Just for fun, mostly written with AI, no telemetry, free to use and fork (GPL-3.0). Every app comes with **Nyu**, the pink sticker cat, always with a round UwU face.
+Next to streaming I build small apps for myself, because every other program annoyed me. Just for fun, mostly written with AI, no telemetry, no subscription, free to use and fork (GPL-3.0 for the apps, AGPL-3.0 for the servers). Every app comes with **Nyu**, the pink sticker cat, always with a round UwU face.
 
-Stack: Tauri 2 + React + TypeScript on the front, Rust underneath, SQLite for storage, self-hosted sync where it makes sense.
+Stack: Tauri 2 + React + TypeScript on the front, Rust underneath, SQLite for storage, self-hosted servers where it makes sense.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MinifyX/UwUMail-Client/main/brand/uwumail-app-icon.svg" width="64" alt="UwUMail">
-  <img src="https://raw.githubusercontent.com/MinifyX/UwUSSH-Client/main/brand/uwussh-app-icon.svg" width="64" alt="UwUSSH">
-  <img src="https://raw.githubusercontent.com/MinifyX/UwURDP-Client/main/brand/uwurdp-app-icon.svg" width="64" alt="UwURDP">
-  <img src="https://raw.githubusercontent.com/MinifyX/UwUNotes-Client/main/brand/uwunotes-app-icon.svg" width="64" alt="UwUNotes">
-  <img src="https://raw.githubusercontent.com/MinifyX/UwUSSH-Client/main/brand/uwukeygen-app-icon.svg" width="64" alt="UwUKeygen">
-  <img src="https://raw.githubusercontent.com/MinifyX/UwUSync-Server/main/brand/uwusync-app-icon.svg" width="64" alt="UwUSync">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUMail-Client/main/brand/uwumail-app-icon.svg" width="56" alt="UwUMail">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUSSH-Client/main/brand/uwussh-app-icon.svg" width="56" alt="UwUSSH">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUSSH-Client/main/brand/uwukeygen-app-icon.svg" width="56" alt="UwUKeygen">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwURDP-Client/main/brand/uwurdp-app-icon.svg" width="56" alt="UwURDP">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwULock-Client/main/brand/uwulock-app-icon.svg" width="56" alt="UwULock">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUNotes-Client/main/brand/uwunotes-app-icon.svg" width="56" alt="UwUNotes">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUMirror/main/brand/uwumirror-app-icon.svg" width="56" alt="UwUMirror">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUSync-Server/main/brand/uwusync-app-icon.svg" width="56" alt="UwUSync">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUAuth-Server/main/brand/uwuauth-app-icon.svg" width="56" alt="UwUAuth">
 </p>
+
+**Apps**
 
 | App | What it is |
 | --- | --- |
-| [UwUMail](https://github.com/MinifyX/UwUMail-Client) | Mail client for Windows and Android, IMAP/SMTP/JMAP |
-| [UwUMail Server](https://github.com/MinifyX/UwUMail-Server) | Self-hosted mail server in one Docker container, with [webmail](https://github.com/MinifyX/UwUMail-Webmail) |
-| [UwUSSH](https://github.com/MinifyX/UwUSSH-Client) | SSH/SFTP client with a vault and encrypted sync, plus **UwUKeygen** for SSH keys |
+| [UwUMail](https://github.com/MinifyX/UwUMail-Client) | Mail app for Windows, macOS, Linux, Android and iPhone: IMAP/SMTP/JMAP, Microsoft and Google accounts, calendar, contacts, labels, AI only if you want it |
+| [UwUSSH](https://github.com/MinifyX/UwUSSH-Client) | SSH/SFTP client with an encrypted vault and sync, tunnels and AI commands in the beta, plus **UwUKeygen** for SSH keys |
+| [UwURDP](https://github.com/MinifyX/UwURDP-Client) | Remote desktop client on IronRDP with RDCMan import, file clipboard and drive redirection (beta) |
+| [UwULock](https://github.com/MinifyX/UwULock-Client) | Password manager for UwULock Server, Vaultwarden and Bitwarden: desktop, Android, iPhone and a browser extension (beta) |
+| [UwUNotes](https://github.com/MinifyX/UwUNotes-Client) | Text and code editor with Notepad++ manners: tabs, splits, file compare, time travel, Markdown preview |
+| [UwUMirror](https://github.com/MinifyX/UwUMirror) | Screen mirroring receiver: AirPlay from iPhone, iPad and Mac, Android over wireless debugging (first beta) |
+
+**Servers** (Docker, amd64 + arm64)
+
+| Server | What it is |
+| --- | --- |
+| [UwUMail Server](https://github.com/MinifyX/UwUMail-Server) | Self-hosted mail server in one container, with spam filter, admin portal and [webmail](https://github.com/MinifyX/UwUMail-Webmail) |
+| [UwULock Server](https://github.com/MinifyX/UwULock-Server) | Bitwarden-compatible password server like Vaultwarden, with its own web vault; the official Bitwarden apps keep working (beta) |
 | [UwUSync Server](https://github.com/MinifyX/UwUSync-Server) | The sync server for UwUSSH and UwURDP: a dumb, encrypted mailbox that can't read what it stores |
-| [UwURDP](https://github.com/MinifyX/UwURDP-Client) | Remote desktop client on IronRDP, RDCMan import, syncs through UwUSync Server like UwUSSH (fresh beta) |
-| [UwUNotes](https://github.com/MinifyX/UwUNotes-Client) | Text and code editor with tabs, splits, macros and file compare |
+| [UwUAuth Server](https://github.com/MinifyX/UwUAuth-Server) | Identity server for a family or small office: OIDC, LDAP, SCIM and pairing with the suite (beta) |
 
 Downloads, release notes and Nyu: **[uwu.minifyx.de](https://uwu.minifyx.de)**
 
