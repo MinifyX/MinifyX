@@ -50,7 +50,7 @@ Stack: Tauri 2 + React + TypeScript on the front, Rust underneath, SQLite for st
 | [UwULock](https://github.com/MinifyX/UwULock-Client) | Password manager for UwULock Server, Vaultwarden and Bitwarden: desktop, Android, iPhone and a browser extension (beta) |
 | [UwUNotes](https://github.com/MinifyX/UwUNotes-Client) | Text and code editor with Notepad++ manners: tabs, splits, file compare, time travel, Markdown preview |
 | [UwUMirror](https://github.com/MinifyX/UwUMirror) | Screen mirroring receiver: AirPlay from iPhone, iPad and Mac, Android over wireless debugging (first beta) |
-| [UwUPulse](https://github.com/MinifyX/UwUPulse) | Heart rate from Apple Watch and BLE chest straps to OBS overlays, session recordings and a local API: desktop for macOS, Windows and Linux plus iPhone and Apple Watch, fully local, no cloud (MIT, v0.1.0 pending) |
+| [UwUPulse](https://github.com/MinifyX/UwUPulse) | Heart rate from Apple Watch and BLE chest straps to OBS overlays, session recordings and a local API: desktop for macOS, Windows and Linux plus iPhone and Apple Watch, fully local, no cloud (MIT) |
 
 **Servers** (Docker, amd64 + arm64)
 
