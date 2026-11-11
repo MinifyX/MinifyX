@@ -38,6 +38,7 @@ Stack: Tauri 2 + React + TypeScript on the front, Rust underneath, SQLite for st
   <img src="https://raw.githubusercontent.com/MinifyX/UwUPulse/main/assets/icon.svg" width="56" alt="UwUPulse">
   <img src="https://raw.githubusercontent.com/MinifyX/UwUSync-Server/main/brand/uwusync-app-icon.svg" width="56" alt="UwUSync">
   <img src="https://raw.githubusercontent.com/MinifyX/UwUAuth-Server/main/brand/uwuauth-app-icon.svg" width="56" alt="UwUAuth">
+  <img src="https://raw.githubusercontent.com/MinifyX/UwUStatus/main/web/public/favicon.svg" width="56" alt="UwUStatus">
 </p>
 
 **Apps**
@@ -60,6 +61,7 @@ Stack: Tauri 2 + React + TypeScript on the front, Rust underneath, SQLite for st
 | [UwULock Server](https://github.com/MinifyX/UwULock-Server) | Bitwarden-compatible password server like Vaultwarden, with its own web vault; the official Bitwarden apps keep working (beta) |
 | [UwUSync Server](https://github.com/MinifyX/UwUSync-Server) | The sync server for UwUSSH and UwURDP: a dumb, encrypted mailbox that can't read what it stores |
 | [UwUAuth Server](https://github.com/MinifyX/UwUAuth-Server) | Identity server for a family or small office: OIDC, LDAP, SCIM and pairing with the suite (beta) |
+| [UwUStatus](https://github.com/MinifyX/UwUStatus) | Uptime monitoring and status pages, a replacement for Uptime Kuma: many check types, alerts, satellites that check from outside (beta) |
 
 Downloads, release notes and Nyu: **[uwu.minifyx.de](https://uwu.minifyx.de)**
 
